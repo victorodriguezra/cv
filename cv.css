@@ -251,6 +251,7 @@
   font-family: 'lorafont';
   color: rgb(84, 84, 84);
   letter-spacing: 2px;
+  width: 320px;
 
   position: absolute;
   left: 440px;
@@ -275,6 +276,7 @@
   font-size: 18.4px;
   font-family: 'lorafont';
   color: rgb(84, 84, 84);
+  width: 200px;
 
   position: absolute;
   left: 438px;
@@ -285,6 +287,7 @@
   font-size: 14.6px;
   font-family: 'lorafont';
   color: rgb(84, 84, 84);
+  width: 212px;
 
   position: absolute;
   left: 438px;
@@ -295,6 +298,7 @@
   font-size: 14.6px;
   font-family: 'lorafont';
   color: rgb(84, 84, 84);
+  width: 383px;
 
   position: absolute;
   left: 424px;
@@ -305,6 +309,7 @@
   font-size: 18.4px;
   font-family: 'lorafont';
   color: rgb(84, 84, 84);
+  width: 200px;
 
   position: absolute;
   left: 438px;
@@ -315,6 +320,7 @@
   font-size: 14.6px;
   font-family: 'lorafont';
   color: rgb(84, 84, 84);
+  width: 200px;
 
   position: absolute;
   left: 438px;
@@ -325,6 +331,7 @@
   font-size: 14.6px;
   font-family: 'lorafont';
   color: rgb(84, 84, 84);
+  width: 385px;
 
   position: absolute;
   left: 424px;
@@ -335,6 +342,7 @@
   font-size: 13.2px;
   font-family: 'lorafont';
   color: rgb(84, 84, 84);
+  width: 220px;
 
   position: absolute;
   left: 438px;
@@ -345,6 +353,7 @@
   font-size: 13.2px;
   font-family: 'lorafont';
   color: rgb(84, 84, 84);
+  width: 390px;
 
   position: absolute;
   left: 424px;
@@ -461,10 +470,21 @@
 }
 
 @keyframes home {
-  0%   {opacity: 0%; right: 1000px;}
+  0%   {opacity: 0%; left: 300px;}
   25%  {opacity: 0%;}
   50%  {opacity: 10%;}
   75%  {opacity: 20%;}
   100% {opacity: 80%;}
 }
 
+.grow { 
+  transition: all .2s ease-in-out; 
+  }
+
+  .grow:hover { 
+  transform: scale(1.1); 
+  }
+
+ul {
+  text-size-adjust: none;
+}
