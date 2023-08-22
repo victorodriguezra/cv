@@ -82,6 +82,10 @@
   position: relative;
   left: 384px;
   top: 15px;
+
+  animation-name: resumen;
+  animation-duration: 700ms;
+  animation-timing-function: linear;
 }
 
 .resumenline {
@@ -117,6 +121,9 @@
   left: 82px;
   top: 410px;
 
+  animation-name: educacion;
+  animation-duration: 700ms;
+  animation-timing-function: linear;
 }
 
 .educacionline {
@@ -178,6 +185,10 @@
   position: absolute;
   left: 82px;
   top: 640px;
+
+  animation-name: habilidades;
+  animation-duration: 700ms;
+  animation-timing-function: linear;
 }
 
 .habilidadesline {
@@ -209,6 +220,10 @@
   position: absolute;
   left: 82px;
   top: 930px;
+
+  animation-name: certificaciones;
+  animation-duration: 700ms;
+  animation-timing-function: linear;
 }
 
 .certificacionesline {
@@ -241,6 +256,9 @@
   left: 440px;
   top: 410px;
 
+  animation-name: exprofe;
+  animation-duration: 700ms;
+  animation-timing-function: linear;
 }
 
 .exprofeline {
@@ -342,6 +360,10 @@
   float: right;
   right: 120px;
   bottom: 15px;
+
+  animation-name: whats;
+  animation-duration: 700ms;
+  animation-timing-function: linear;
 }
 
 .grayfont2 {
@@ -353,6 +375,10 @@
   float: right;
   top: 6px;
   left: 4px;
+
+  animation-name: email;
+  animation-duration: 700ms;
+  animation-timing-function: linear;
 }
 
 .grayfont3 {
@@ -364,6 +390,10 @@
   float: right;
   top: 30px;
   left: 230px;
+
+  animation-name: home;
+  animation-duration: 700ms;
+  animation-timing-function: linear;
 }
 
 .blankspace {
@@ -372,5 +402,69 @@
  
   position: absolute;
   top: 1111px;
+}
+
+@keyframes resumen {
+  0%   {opacity: 0%; left: 384px; top: 40px;}
+  25%  {opacity: 10%; left: 384px; top: 30px;}
+  50%  {opacity: 20%; left: 384px; top: 25px;}
+  75%  {opacity: 90%; left: 384px; top: 20px;}
+  100% {opacity: 100%; left: 384px; top: 15px;}
+}
+
+@keyframes educacion {
+  0%   {opacity: 0%; left: 82px; top: 435px;}
+  25%  {opacity: 10%; left: 82px; top: 425px;}
+  50%  {opacity: 20%; left: 82px; top: 420px;}
+  75%  {opacity: 90%; left: 82px; top: 415px;}
+  100% {opacity: 100%; left: 82px; top: 410px;}
+}
+
+@keyframes habilidades {
+  0%   {opacity: 0%; left: 82px; top: 665px;}
+  25%  {opacity: 10%; left: 82px; top: 655px;}
+  50%  {opacity: 20%; left: 82px; top: 650px;}
+  75%  {opacity: 90%; left: 82px; top: 645px;}
+  100% {opacity: 100%; left: 82px; top: 640px;}
+}
+
+@keyframes certificaciones {
+  0%   {opacity: 0%; left: 82px; top: 955px;}
+  25%  {opacity: 10%; left: 82px; top: 945px;}
+  50%  {opacity: 20%; left: 82px; top: 940px;}
+  75%  {opacity: 90%; left: 82px; top: 935px;}
+  100% {opacity: 100%; left: 82px; top: 930px;}
+}
+
+@keyframes exprofe {
+  0%   {opacity: 0%; left: 440px; top: 435px;}
+  25%  {opacity: 10%; left: 440px; top: 425px;}
+  50%  {opacity: 20%; left: 440px; top: 420px;}
+  75%  {opacity: 90%; left: 440px; top: 415px;}
+  100% {opacity: 100%; left: 440px; top: 410px;}
+}
+
+@keyframes whats {
+  0%   {opacity: 0%; right: 10px;}
+  25%  {opacity: 0%;}
+  50%  {opacity: 10%;}
+  75%  {opacity: 20%;}
+  100% {opacity: 80%;}
+}
+
+@keyframes email {
+  0%   {opacity: 0%; left: 100px;}
+  25%  {opacity: 0%;}
+  50%  {opacity: 10%;}
+  75%  {opacity: 20%;}
+  100% {opacity: 80%;}
+}
+
+@keyframes home {
+  0%   {opacity: 0%; right: 1000px;}
+  25%  {opacity: 0%;}
+  50%  {opacity: 10%;}
+  75%  {opacity: 20%;}
+  100% {opacity: 80%;}
 }
 
