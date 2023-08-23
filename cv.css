@@ -484,7 +484,3 @@
   .grow:hover { 
   transform: scale(1.1); 
   }
-
-ul {
-  text-size-adjust: none;
-}
